@@ -188,7 +188,7 @@ class SideBar extends Component {
 					</li>						
 				</ul>
             </li>
-            {/* <li className={`${app.includes(path) ? "mm-active" : ""}`}>
+             <li className={`${app.includes(path) ? "mm-active" : ""}`}>
               <Link className="has-arrow ai-icon" to="#" >
                 <i className="flaticon-381-television"></i>
                 <span className="nav-text">Apps</span>
@@ -339,7 +339,7 @@ class SideBar extends Component {
                 </li>
               </ul>
             </li>
-            {/* <li className={`${charts.includes(path) ? "mm-active" : ""}`}>
+           <li className={`${charts.includes(path) ? "mm-active" : ""}`}>
               <Link className="has-arrow ai-icon" to="#" >
                 <i className="flaticon-381-controls-3"></i>
                 <span className="nav-text">Charts</span>
@@ -612,7 +612,7 @@ class SideBar extends Component {
 				<li>
 					<Link className={`${path === "uc-lightgallery" ? "mm-active" : ""}`} onClick={() => this.props.onClick()} to="/uc-lightgallery">Light Gallery</Link>
                 </li>
-                {/* <li><Link className={`${path === "posts" ? "mm-active" : ""}`} to="/posts">Posts</Link></li> 
+                 <li><Link className={`${path === "posts" ? "mm-active" : ""}`} to="/posts">Posts</Link></li> 
               </ul>
             </li>
             <li className={`${redux.includes(path) ? "mm-active" : ""}`}>
@@ -745,26 +745,9 @@ class SideBar extends Component {
                     </Link>
                 </li>
               </ul>
-            </li> */}
+            </li> 
           </MM>
-			<div className="copyright">
-				<p>
-				  <strong>Jobie  Admin Dashboard</strong> <br/>© 2021 All
-				  Rights Reserved
-				</p>
-				<p>
-				  Made with{" "}
-				  <span
-					className={`${
-					  this.state.loveEmoji ? "heart heart-blast" : "heart"
-					}`}
-					onClick={() =>
-					  this.setState({ loveEmoji: !this.state.loveEmoji })
-					}
-				  ></span>{" "}
-				  by DexignZone
-				</p>
-			  </div>
+		
 			</PerfectScrollbar>
       </div>
     );

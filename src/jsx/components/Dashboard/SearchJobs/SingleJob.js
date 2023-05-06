@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const SingleJob = (props) => {
    const {
       subTitle,
-      title,
+      jobTitle,
       icon,
       lowRate,
       highRate,
@@ -19,7 +19,7 @@ const SingleJob = (props) => {
                <div className="media mb-2">
                   <div className="media-body">
                      <p className="mb-1">{subTitle}</p>
-                     <h4 className="fs-20 text-black">{title}</h4>
+                     <h4 className="fs-20 text-black">{jobTitle}</h4>
                   </div>
                   {icon}
                </div>
@@ -32,10 +32,10 @@ const SingleJob = (props) => {
                      to="search-job"
                      className="btn btn-primary light btn-rounded mr-auto"
                   >
-                     REMOTE
+                     more details
                   </Link>
                   <span className="text-black font-w500">
-                     {locationPlace}, {locationCountry}
+                     {locationCountry}
                   </span>
                </div>
             </div>

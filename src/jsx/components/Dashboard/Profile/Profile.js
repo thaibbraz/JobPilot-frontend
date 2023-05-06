@@ -23,12 +23,12 @@ const Profile = () => {
                                     className="custom-control-input"
                                     id="customSwitch1"
                                  />
-                                 <label
+                                 {/* <label
                                     className="custom-control-label"
                                     htmlFor="customSwitch1"
                                  >
                                     Available for hire?
-                                 </label>
+                                 </label> */}
                               </div>
                            </div>
                            <Link
@@ -409,24 +409,24 @@ const Profile = () => {
                            <p className="mb-4">Programmer</p>
                            <div className="row">
                               <div className="col-6">
-                                 <div className="border rounded p-2">
+                                 {/* <div className="border rounded p-2">
                                     <h4 className="fs-22 text-black font-w600">
                                        228
                                     </h4>
                                     <span className="text-black">
                                        Following
                                     </span>
-                                 </div>
+                                 </div> */}
                               </div>
                               <div className="col-6">
-                                 <div className="border rounded p-2">
+                                 {/* <div className="border rounded p-2">
                                     <h4 className="fs-22 text-black font-w600">
                                        4,842
                                     </h4>
                                     <span className="text-black">
                                        Followers
                                     </span>
-                                 </div>
+                                 </div> */}
                               </div>
                            </div>
                         </div>

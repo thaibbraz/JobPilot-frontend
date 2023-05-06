@@ -164,7 +164,7 @@ const Companies = () => {
                            </Link>
                         </div>
                      </div>
-                     <div className="d-flex pb-3 mb-4 border-bottom flex-wrap align-items-center">
+                     {/* <div className="d-flex pb-3 mb-4 border-bottom flex-wrap align-items-center">
                         <Link
                            to="#"
                            className="btn btn-primary light btn-rounded mr-2 mb-2"
@@ -201,7 +201,7 @@ const Companies = () => {
                         >
                            Digital Marketing
                         </Link>
-                     </div>
+                     </div> */}
                      <div className="d-flex flex-wrap align-items-center mb-4">
                         <div className="mr-auto mb-2 pr-2">
                            <h6 className="text-black fs-16 font-w600 mb-1">
@@ -215,12 +215,12 @@ const Companies = () => {
                               className="custom-control-input"
                               id="customSwitch12"
                            />
-                           <label
+                           {/* <label
                               className="custom-control-label"
                               htmlFor="customSwitch12"
                            >
                               Salary
-                           </label>
+                           </label> */}
                         </div>
                         <Dropdown className="dropdown custom-dropdown mb-0 mr-4 mt-3 mt-sm-0 mb-2">
                            <Dropdown.Toggle

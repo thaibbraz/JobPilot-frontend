@@ -15,7 +15,7 @@ const Statistics = () => {
                      <div className="card">
                         <div className="card-header border-0 pb-0">
                            <h4 className="fs-20 text-black">
-                              Profile Strength
+                              Application Strength
                            </h4>
                            <Dropdown className="dropdown float-right custom-dropdown mb-0">
                               <Dropdown.Toggle
@@ -113,7 +113,7 @@ const Statistics = () => {
                                     <span className="fs-18 text-black mr-3 font-w600">
                                        14%
                                     </span>
-                                    <span className="fs-14">Hired</span>
+                                    <span className="fs-14">Job Offer</span>
                                  </div>
                                  <div className="d-flex align-items-center">
                                     <svg
@@ -145,7 +145,7 @@ const Statistics = () => {
                      <div className="card">
                         <div className="card-header align-items-center flex-wrap border-0 pb-0">
                            <h4 className="fs-20 text-black mb-2 mr-3">
-                              Visitor Graph
+                              Linkedin 
                            </h4>
                            <div className="custom-control custom-switch toggle-switch text-right mb-2">
                               <input
@@ -238,7 +238,7 @@ const Statistics = () => {
                   <div className="col-xl-4 col-xxl-6 col-lg-4 col-sm-6">
                      <div className="card">
                         <div className="card-body">
-                           <p className="text-black mb-0">Profile Viewed</p>
+                           <p className="text-black mb-0">CV Viewed</p>
                            <span className="fs-28 text-black font-w600 mb-5 d-block">
                               456k
                            </span>
@@ -405,7 +405,7 @@ const Statistics = () => {
                   <div className="col-xl-4 col-xxl-6 col-lg-4 col-sm-6">
                      <div className="card">
                         <div className="card-body">
-                           <p className="text-black mb-0">Hired</p>
+                           <p className="text-black mb-0">Job Offer</p>
                            <span className="fs-28 text-black font-w600 mb-5 d-block">
                               69
                            </span>

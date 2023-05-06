@@ -3,15 +3,15 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="copyright">
+      {/* <div className="copyright">
         <p>
           Copyright © Designed &amp; Developed by{" "}
-          <a href="http://dexignzone.com/" target="_blank"  rel="noreferrer">
-            DexignZone
+          <a href="http://jobpilot.com/" target="_blank"  rel="noreferrer">
+            JobPilot team
           </a>{" "}
-          2021
+          2023
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
